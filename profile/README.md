@@ -14,11 +14,14 @@
 
 ## Opis projektu i funkcjonalności
 ### Funkcjonalności rozwiązania
+* Rejestracja oraz logowanie do serwisu
+* Wyświetlanie rekomendowanych książek
+* Wyszukiwanie książek po tytule
+* Wyświetlanie szczegółów książek
+* Wyświetlanie opinii innych oraz dodawanie swoich opinii o książkach
 
 ### Przykładowy scenariusz
-Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Następnie przegląda opinie innych użytkowników lub pozostawia własną. Potem cofa się do strony głównej, gdzie przegląda książki rekomendowane dla niego. Wybiera interesującą go książkę i zapoznaje się z informacjami oraz opiniami na jej temat. Użytkownik powtarza wyszukiwanie kilkukrotnie wyszukując interesujące go książki, zwiększając tym samym trafność przygotowanych dla niego rekomendacji.
-
-## Schemat działania
+Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Następnie przegląda opinie innych użytkowników lub pozostawia własną. Potem cofa się do strony głównej, gdzie przegląda książki rekomendowane dla niego. Wybiera interesującą go książkę i zapoznaje się z informacjami oraz opiniami na jej temat. Użytkownik powtarza wyszukiwanie kilkukrotnie wyszukując interesujące go książki, zwiększając tym samym trafność przygotowywanych dla niego rekomendacji.
 
 ## Diagram architektury
 
@@ -27,8 +30,8 @@ Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Nas
 - Backend - Azure Spring Apps, Spring
 - Baza danych - Azure Database for MySQL flexible server
 - Rekomendacje - App Service, Python
-- Moderacja kontentu - Content Moderator
-- Przechowywanie zdjęć - Stoarge Account
+- Moderacja treści - Content Moderator
+- Przechowywanie zdjęć - Storage Account
 - Inne: Key Vault, Virtual Network, Managed Identity, Private DNS zone
 
 ## Demo aplikacji
