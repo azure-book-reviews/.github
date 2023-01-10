@@ -24,6 +24,7 @@
 Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Następnie przegląda opinie innych użytkowników lub pozostawia własną. Potem cofa się do strony głównej, gdzie przegląda książki rekomendowane dla niego. Wybiera interesującą go książkę i zapoznaje się z informacjami oraz opiniami na jej temat. Użytkownik powtarza wyszukiwanie kilkukrotnie wyszukując interesujące go książki, zwiększając tym samym trafność przygotowywanych dla niego rekomendacji.
 
 ## Diagram architektury
+![image](https://user-images.githubusercontent.com/61696629/211648280-a537ebcc-8b96-4957-bd16-f57e4853ec3a.png)
 
 ## Opis wybranych serwisów i stosu technologicznego
 - Frontend - App Service, React - deployment przez VS Code
