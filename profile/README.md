@@ -23,6 +23,19 @@
 ### Przykładowy scenariusz
 Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Następnie przegląda opinie innych użytkowników lub pozostawia własną. Potem cofa się do strony głównej, gdzie przegląda książki rekomendowane dla niego. Wybiera interesującą go książkę i zapoznaje się z informacjami oraz opiniami na jej temat. Użytkownik powtarza wyszukiwanie kilkukrotnie wyszukując interesujące go książki, zwiększając tym samym trafność przygotowywanych dla niego rekomendacji.
 
+## Schemat działania
+- Użytkownik rejestruje się w serwisie
+- Użytkownik loguje sie do serwisu podając dane z rejestracji
+- Użytkownik wyszukuje ostatnio przeczytaną książkę po tytule
+- Serwis rekomendacyjny zapisuje informację o wyszukaniu użytkownika
+- Uzytkownik wchodzi w szczegóły wybranej książki
+- Użytkownik pisze oraz wysyła recenzję
+- Moderator kontentu sprawdza treść recenzji pod kątem jej bezpieczeństwa
+- Baza danych zapisuje recenzję
+- Użytkownik powraca na stronę główną serwisu
+- Serwis rekomendacyjny wybiera książki dopasowane do zainteresowań użytkownika
+- Aplikacji internetowa wyświetla książki rekomendowane dla użytkownika
+
 ## Diagram architektury
 ![image](https://user-images.githubusercontent.com/61696629/211648280-a537ebcc-8b96-4957-bd16-f57e4853ec3a.png)
 
