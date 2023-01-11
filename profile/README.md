@@ -37,7 +37,7 @@ Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Nas
 
 
 ## Diagram architektury
-![image](https://user-images.githubusercontent.com/61696629/211648280-a537ebcc-8b96-4957-bd16-f57e4853ec3a.png)
+![image](https://user-images.githubusercontent.com/61696629/211897664-1c3446f4-a59a-4a97-8913-e6ce3369bb83.png)
 
 ## Opis wybranych serwisów i stosu technologicznego
 - Frontend - App Service, React - deployment przez VS Code
