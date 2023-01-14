@@ -49,3 +49,4 @@ Użytkownik loguje się do serwisu i wyszukuje interesującą go książkę. Nas
 - Inne: Key Vault, Virtual Network, Managed Identity, Private DNS zone
 
 ## Demo aplikacji
+[Link do filmu z demo](https://www.youtube.com/watch?v=vVkG7dTTZpI)
